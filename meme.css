@@ -1,0 +1,47 @@
+body {
+    background: #23074d;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #b94242, #080000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #b94242, #080000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nothing{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Anton', sans-serif;
+}
+
+input {
+    text-align: center;
+}
+
+.meme {
+    width: 500px;
+    height: 400px;
+    padding:  5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.memehead {
+    color: white;
+    font-size: 150;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.memefoot {
+    color: white;
+    font-size: 150;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.trash {
+    visibility: hidden;
+}
+
+.memetitle {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 2em;
+}
