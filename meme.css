@@ -5,7 +5,9 @@ body {
 }
 
 .nothing{
-    font-family: 'Ubuntu', sans-serif;
+    
+    font-family: 'Playfair Display SC', serif;
+
     font-family: 'Anton', sans-serif;
 }
 
@@ -20,7 +22,6 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .memehead {
     color: white;
@@ -38,10 +39,17 @@ input {
 
 .trash {
     visibility: hidden;
+    color: white;
 }
 
 .memetitle {
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    font-size: 2em;
+    font-family: 'Playfair Display SC', serif;
+    vertical-align: text-top;
+    
+    text-shadow:
+    -1px -1px 0 #b94242,
+    1px -1px 0 #b94242,
+    -1px 1px 0 #b94242,
+    1px 1px 0 #b94242;
+    font-size: 3em;
 }
